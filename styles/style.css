@@ -9,6 +9,29 @@
   font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "ROND" 0;
 }
 
+/* using styles */
+
+.btn-orange {
+  padding: 0.5em 1.5em;
+  border: none;
+  background-color: #fd6e0a;
+  color: white;
+  font-size: 1.25em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-transparent {
+  padding: 0.5em 1.5em;
+  border: none;
+  background-color: transparent;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  font-size: 1.25em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 body {
   background-color: #f5f5f5;
   color: #333;
@@ -59,12 +82,36 @@ nav div ul li a {
   font-size: 1.25em;
 }
 
-.nav-links-container button {
-  padding: 0.5em 1.5em;
-  border: none;
-  background-color: #fd6e0a;
-  color: white;
-  font-size: 1.25em;
-  border-radius: 5px;
-  cursor: pointer;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 0 225px;
 }
+
+.hero-left {
+  margin: auto 0;
+}
+
+.hero-left h3 {
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #757575;
+}
+
+.hero-button-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+
