@@ -51,6 +51,7 @@ nav {
   align-items: center;
   width: 71%;
   max-width: 1175px;
+  margin-bottom: 30px;
 }
 
 nav div h2 {
@@ -196,6 +197,11 @@ nav div ul li a {
 
 .card-content-header {
   margin-bottom: 30px;
+  color: rgba(24, 24, 24, 1);
+}
+
+.card-content-para {
+  color: rgba(117, 117, 117, 1);
 }
 
 .resume-container {
@@ -215,7 +221,8 @@ nav div ul li a {
   gap: 30px;
 }
 
-.resume-content-left, .resume-content-right {
+.resume-content-left,
+.resume-content-right {
   margin-bottom: 50px;
 }
 
@@ -256,4 +263,55 @@ nav div ul li a {
   max-width: max-content;
   justify-self: center;
   margin-bottom: 113px;
+}
+
+.footer-container {
+  background: rgba(255, 248, 243, 1);
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+}
+.footer-left {
+  flex: 1;
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-header {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  color: rgba(71, 71, 71, 1);
+  margin-bottom: 30px;
+}
+
+.footer-left-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-form input,
+textarea {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  line-height: 28px;
+  border: none;
+  padding: 18px 33px;
+  font-family: "Google Sans Flex";
+}
+
+.submit {
+  max-width: max-content;
+  margin-bottom: 130px;
 }
