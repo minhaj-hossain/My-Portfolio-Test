@@ -180,7 +180,7 @@ nav div ul li a {
   justify-content: space-between;
   margin: 0 230px;
   gap: 40px;
-  margin-bottom: 400px;
+  margin-bottom: 130px;
 }
 
 .cards .card {
@@ -196,4 +196,64 @@ nav div ul li a {
 
 .card-content-header {
   margin-bottom: 30px;
+}
+
+.resume-container {
+  margin: 0 230px;
+}
+
+.resume-container .resume-header {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+.resume-content {
+  display: flex;
+  gap: 30px;
+}
+
+.resume-content-left, .resume-content-right {
+  margin-bottom: 50px;
+}
+
+.resume-content-box h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(71, 71, 71, 1);
+  margin-bottom: 30px;
+  line-height: 41px;
+}
+
+.resume-content-box h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(71, 71, 71, 1);
+  margin-bottom: 10px;
+}
+
+.resume-content-box h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(117, 117, 117, 1);
+  margin-bottom: 20px;
+}
+
+.resume-content-box p {
+  width: 511px;
+  margin-bottom: 30px;
+}
+
+.resume-content-box .line {
+  width: 558px;
+  border: 1px solid rgba(209, 209, 209, 1);
+  margin-bottom: 30px;
+}
+
+.resume-download {
+  max-width: max-content;
+  justify-self: center;
+  margin-bottom: 113px;
 }
